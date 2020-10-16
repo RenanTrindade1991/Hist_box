@@ -76,5 +76,5 @@ def criar_hist(list_vars, list_labels, titulo, limit, save=False, fig_size=(10, 
 
     if save==True:
 
-        plt.savefig(('Gráficos gerados/'+titulo+'.png'), bbox_inches='tight')
+        plt.savefig(('titulo+'.png'), bbox_inches='tight')
 
